@@ -1,0 +1,27 @@
+.main-section {
+    background-image: url("../assets/images/background_img.png");
+    height: 100vh; /* Make the section take up the full viewport height */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .main-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px; /* Space between the heading and the paragraph */
+  }
+  
+  .main-section p {
+    font-size: 24px;
+    margin-bottom: 20px; /* Space between the paragraph and the button */
+  }
+  
+  .main-section .btn {
+    margin-top: 20px;
+  }
+  
