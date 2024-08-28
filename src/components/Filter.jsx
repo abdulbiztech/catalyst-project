@@ -1,6 +1,5 @@
-// Filter.js
 import React from 'react';
-import './styles.css';
+import '../styles/Filter.css';
 
 const Filter = () => {
   return (
@@ -9,17 +8,19 @@ const Filter = () => {
       <div className="filter-group">
         <h5>Materials</h5>
         <ul>
-          <li><input type="checkbox" /> Cotton</li>
-          <li><input type="checkbox" /> Wool</li>
-          <li><input type="checkbox" /> Silk</li>
+          <li><a href="#">All</a></li>
+          <li><a href="#">Cotton</a></li>
+          <li><a href="#">Wool</a></li>
+          <li><a href="#">Silk</a></li>
         </ul>
       </div>
       <div className="filter-group">
-        <h5>Colors</h5>
+        <h5>Color</h5>
         <ul>
-          <li><input type="checkbox" /> Mint Green</li>
-          <li><input type="checkbox" /> Blue</li>
-          <li><input type="checkbox" /> Red</li>
+          <li><a href="#">All</a></li>
+          <li><a href="#">Mint Green</a></li>
+          <li><a href="#">Blue</a></li>
+          <li><a href="#">Red</a></li>
         </ul>
       </div>
     </aside>

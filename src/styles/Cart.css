@@ -1,32 +1,84 @@
 .cart {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 300px;
-    height: 100%;
-    background: white;
-    padding: 20px;
-    box-shadow: -2px 0 5px rgba(0,0,0,0.3);
-    z-index: 9999;
-    transition: transform 0.3s ease-in-out;
-    transform: translateX(100%);
-  }
-  
-  .cart.show {
-    transform: translateX(0);
-  }
-  
-  .cart.hide {
-    transform: translateX(100%);
-  }
-  
-  .cart .cart-item {
-    margin-bottom: 10px;
-  }
-  
-  .cart .cart-total {
-    margin-top: 20px;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 350px; /* Adjusted width to match the design */
+  height: 100%;
+  background: #f3f3f3; /* Match the background color */
+  padding: 20px;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.3);
+  z-index: 9999;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(100%);
+}
+
+/* Make the header transparent */
+.cart h4 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #333;
+  background-color: transparent; /* Transparent background for header */
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd; /* Optional: adds a border to separate the header */
+}
+
+.cart.show {
+  transform: translateX(0);
+}
+
+.cart.hide {
+  transform: translateX(100%);
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cart-item-image {
+  width: 100px;
+  height: auto;
+  margin-right: 15px;
+  border: 1px solid #ddd;
+}
+
+.cart-item-details {
+  flex: 1;
+}
+
+.cart-item-details h5 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.item-color,
+.item-material {
+  font-size: 0.875rem;
+  color: #888;
+  margin: 2px 0;
+}
+
+.item-price {
+  font-size: 1rem;
+  color: #b12704;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.remove-button {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.remove-button:hover {
+  background: #111;
+}

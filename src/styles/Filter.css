@@ -1,0 +1,45 @@
+.filter-section {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .filter-section h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .filter-group h5 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .filter-group ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .filter-group ul li {
+    margin-bottom: 10px;
+  }
+  
+  .filter-group ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+  
+  .filter-group ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .filter-group ul li:first-child a {
+    font-weight: bold; /* Making the 'All' option bold for distinction */
+  }
+  
+  .filter-section .filter-group {
+    margin-bottom: 20px; /* Space between different filter groups */
+  }
+  

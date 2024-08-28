@@ -1,27 +1,32 @@
 .main-section {
-    background-image: url("../assets/images/background_img.png");
-    height: 100vh; /* Make the section take up the full viewport height */
-    background-size: cover;
-    background-position: center;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  
-  .main-section h1 {
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 10px; /* Space between the heading and the paragraph */
-  }
-  
-  .main-section p {
-    font-size: 24px;
-    margin-bottom: 20px; /* Space between the paragraph and the button */
-  }
-  
-  .main-section .btn {
-    margin-top: 20px;
-  }
-  
+  background-image: url("../assets/images/background_img.png"); /* Replace with actual image path */
+  height: 600px; /* Increase height to match the provided image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 40px; /* Adjust padding as needed */
+  color: white;
+}
+
+.content-wrapper {
+  max-width: 300px; /* Control the width of the text block */
+}
+
+.main-section h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.main-section p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.main-section .btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+}
