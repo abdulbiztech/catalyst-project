@@ -1,37 +1,33 @@
-/* Sticky and transparent header */
 .sticky-top {
   position: absolute !important;
   top: 20px;
-  z-index: 1000; /* Ensure it stays on top */
-  padding: 10px 20px; /* Padding for spacing within the navbar */
+  width: 100%;
+  z-index: 1000; 
+  padding: 10px 20px; 
 }
 
-/* Navigation link styles */
 .navbar .nav-link {
-  color: #fff; /* Ensure text visibility */
-  font-size: 18px; /* Standard font size for readability */
-  margin-right: 10px; /* Space between navigation items */
+  color: #fff;
+  font-size: 18px; 
+  margin-right: 10px; 
 }
 
 .navbar .nav-link:hover {
-  color: #007bff; /* Blue color on hover for better user feedback */
+  color: #007bff; 
 }
 
-/* Style for the brand name/logo */
 .navbar-brand {
-  color: #000; /* Black for visibility */
+  color: #fff !important;
   font-weight: bold;
-  font-size: 24px; /* Larger font for emphasis */
+  font-size: 24px; 
 }
 
-/* Styles for the cart badge */
 .badge {
   position: absolute;
   top: -2px;
-  /* right: -5px; */
-  background-color: #dc3545; /* Bootstrap's danger color for visibility */
+  background-color: #dc3545; 
   color: white;
   padding: 3px 8px;
-  border-radius: 50%; /* Circular shape */
-  font-size: 12px; /* Smaller size for the badge text */
+  border-radius: 50%; 
+  font-size: 12px;
 }

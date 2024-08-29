@@ -1,5 +1,36 @@
-footer {
+.footer-div {
     background: #333;
     color: #fff;
-    padding: 20px 0;
-}
+    padding: 30px 35px;
+  }
+  
+  .footer-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  .payment-text{
+    text-wrap: wrap;
+    font-size: 1rem;
+  }
+  .footer-link {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  
+  .payment-icons img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .digicert-logo {
+    max-width: 200px;
+    height: auto;
+  }
+  

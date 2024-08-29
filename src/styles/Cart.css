@@ -1,10 +1,11 @@
+
 .cart {
   position: fixed;
   top: 0;
   right: 0;
-  width: 350px; /* Adjusted width to match the design */
+  width: 350px;
   height: 100%;
-  background: #f3f3f3; /* Match the background color */
+  background: rgba(243, 243, 243, 0.9); /* Transparent background */
   padding: 20px;
   box-shadow: -2px 0 5px rgba(0,0,0,0.3);
   z-index: 9999;
@@ -12,16 +13,13 @@
   transform: translateX(100%);
 }
 
-/* Make the header transparent */
 .cart h4 {
   margin-bottom: 20px;
   font-size: 1.5rem;
   color: #333;
-  background-color: transparent; /* Transparent background for header */
   padding: 10px 0;
-  border-bottom: 1px solid #ddd; /* Optional: adds a border to separate the header */
+  border-bottom: 1px solid #ddd; 
 }
-
 .cart.show {
   transform: translateX(0);
 }
@@ -29,7 +27,6 @@
 .cart.hide {
   transform: translateX(100%);
 }
-
 .cart-item {
   display: flex;
   align-items: center;
@@ -81,4 +78,18 @@
 
 .remove-button:hover {
   background: #111;
+}
+.close-button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #333;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.close-button:hover {
+  color: #b12704;
 }

@@ -1,17 +1,17 @@
 .main-section {
-  background-image: url("../assets/images/background_img.png"); /* Replace with actual image path */
-  height: 600px; /* Increase height to match the provided image */
+  background-image: url("../assets/images/background_img.png");
+  height: 600px; 
   background-size: cover;
   background-position: center;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding-left: 40px; /* Adjust padding as needed */
+  padding-left: 40px; 
   color: white;
 }
 
 .content-wrapper {
-  max-width: 300px; /* Control the width of the text block */
+  max-width: 300px;
 }
 
 .main-section h1 {
@@ -19,7 +19,10 @@
   font-weight: bold;
   margin-bottom: 10px;
 }
-
+.btn_style{
+  color: #fff !important; 
+  background-color: #ca4022 !important;
+}
 .main-section p {
   font-size: 24px;
   margin-bottom: 20px;

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Header.css';
 
-const Header = ({ cartItems }) => {
+const Header = ({ cartItems, toggleCart }) => {
   return (
     <header className="sticky-top">
       <nav className="navbar navbar-expand-lg navbar-light">
@@ -19,7 +19,7 @@ const Header = ({ cartItems }) => {
                 <a className="nav-link" href="#">Featured Products</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#" onClick={toggleCart}>
                   <i className="fas fa-shopping-cart"></i> Cart <span className="badge bg-danger">{cartItems.length}</span>
                 </a>
               </li>
