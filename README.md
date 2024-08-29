@@ -32,7 +32,7 @@ Synchronize cart state across different components.
 
 
 Setup Instructions
-1. Clone the repository: git clone [repository-url]
+1. Clone the repository: git clone [https://github.com/abdulbiztech/catalyst-project.git]
 
 2. Install dependencies: npm install
 
